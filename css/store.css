@@ -12,36 +12,4 @@ body {
   background-position: center;
 }
 
-.separador {
-  margin-top: 5%;
-}
 
-.encabezado {
-  text-align: center;
-  color: white;
-
-  h1 {
-    padding: 100px;
-    font-size: 5rem;
-  }
-}
-
-.vehiculos {
-  width: 90%;
-  justify-content: center;
-  align-items: flex-end;
-
-  .accordion {
-    margin-left: 10%;
-  }
-
-  .accordion-button {
-    background-color: darkseagreen;
-    border: 1px solid;
-    color: white;
-    font-size: larger;
-  }
-  .carousel-inner {
-    align-items: left;
-  }
-}
