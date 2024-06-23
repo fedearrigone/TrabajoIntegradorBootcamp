@@ -5,39 +5,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../img/rueda.png" type="image/x-icon">
   <link rel="stylesheet" href="../css/style.css">
-  <title>Contact</title>
+  <title>Contacto</title>
 </head>
 <body>
       <!-- NAVBAR -->
   <header>
     <div class="navbar">
-      <div class="logo"><a href="../index.html">Nombre</a></div>
+      <div class="logo"><a href="../index.html">UNTREF Cars</a></div>
       <ul class="links">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="../pages/store.html">Store</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/about.html">Acerca de</a></li>
+        <li><a href="../pages/store.html">Tienda</a></li>
       </ul>
-      <a href="#" class="action_btn">Get Started</a>
+      <a href="#" class="action_btn contacto">Get Started</a>
       <div class="toggle_btn">
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
     <div class="dropdown_menu">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="../pages/store.html">Store</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#" class="action_btn">Get Started</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/about.html">Acerca de</a></li>
+        <li><a href="../pages/store.html">Tienda</a></li>
+        <li><a href="#" class="action_btn contacto">Get Started</a></li>
     </div>
   </header>
   <main>
     <section class="contact">
         <div class="content">
-            <h2>Contact Us</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quibusdam repudiandae fugit sint! Dolorem dicta, labore et quia blanditiis tempore quo, excepturi culpa nostrum, cumque veritatis numquam perspiciatis tempora iusto?    
+            <h2>Contactanos</h2>
+            <p>Si queres recibir más información acerca de nuestros modelos disponibles, dejanos tus datos y te estaremos contactando a la brevedad.     
             </p>
         </div>
         <div class="container">
@@ -45,14 +43,14 @@
                 <div class="box">
                     <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
                     <div class="text">
-                        <h3>Address</h3>
+                        <h3>Dirección</h3>
                         <p>Av. Patricias Argentinas 480,<br>Cdad. Autónoma de Buenos Aires</p>
                     </div>
                 </div>
                 <div class="box">
                     <div class="icon"><i class="fa-solid fa-phone"></i></div>
                     <div class="text">
-                        <h3>Phone</h3>
+                        <h3>Teléfono</h3>
                         <p>01149824494</p>
                     </div>
                 </div>
@@ -65,11 +63,11 @@
                 </div>
             </div>
             <div class="contactForm">
-                <form>
-                    <h2>Send Message</h2>
+                <form action="https://formsubmit.co/hbuzzi@gmail.com" method="POST">
+                    <h2>Envianos tu mensaje</h2>
                     <div class="inputBox">
                         <input type="text" id="nameField" name="Nombre" required>
-                        <span><label for="nameField"></label>Full Name</span>
+                        <span><label for="nameField"></label>Nombre</span>
                     </div>
                     <div class="inputBox">
                         <input type="email" id="emailField" name="Email" required>
@@ -77,17 +75,32 @@
                     </div>
                     <div class="inputBox">
                         <textarea id="commentField" name="textarea" required></textarea>
-                        <span><label for="commentField"></label>Type your Message...</span>
+                        <span><label for="commentField"></label>Dejanos tu mensaje</span>
                     </div>
                     <div class="inputBox">
-                        <input type="submit" value="Send">
+                        <input type="submit" value="Enviar">
                     </div>
                 </form>
             </div>
         </div>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <ul class="social-icons">
+        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-google"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-instagram"></ion-icon></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/about.html">Acerca de</a></li>
+        <li><a href="../pages/store.html">Tienda</a></li>
+    </ul>
+    <p>© 2024 UNTREF Cars | Todos los derechos reservados</p>
+  </footer>
   <script src="../js/actions.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
