@@ -1,4 +1,4 @@
-# Proyecto Integrador del Bootcamp - UNTREF Cars
+# Proyecto Integrador Bootcamp - UNTREF Cars
 
 Este repositorio contiene el código fuente de un proyecto integrador desarrollado durante el bootcamp. El proyecto consiste en una página web para una concesionaria de autos de alta gama llamada **UNTREF Cars**.
 
